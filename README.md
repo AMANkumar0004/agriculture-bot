@@ -27,3 +27,46 @@ This project was developed as part of a hackathon to help farmers and agricultur
 ---
 
 ## 📂 Project Structure
+
+├── app/ # Next.js app directory
+├── components/ # UI components
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+├── public/ # Static assets
+├── styles/ # Global styles
+├── package.json # Dependencies & scripts
+└── tsconfig.json # TypeScript config
+
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- pnpm / npm / yarn
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/agriculture-bot.git
+cd agriculture-bot
+
+# Install dependencies
+pnpm install
+# or
+npm install
+
+```
+
+Run Development Server
+
+pnpm dev
+# or
+npm run dev
+
+Build for Production
+
+pnpm build
+pnpm start
+
